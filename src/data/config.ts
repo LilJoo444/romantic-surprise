@@ -14,6 +14,6 @@ export const appConfig: AppConfig = {
   relationshipStartDate: "2026-04-21",
   secretPasscode: "210426",       // Ganti dengan 4 digit angka pilihanmu (contoh: tgl/bulan atau tahun)
   passcodeHint: "Tanggal penting kita (format: DDMMYY) 💜",
-  musicTitle: "Shape Of My Heart",
+  musicTitle: "Bundle of Joy",
   musicUrl: "/music/our-song2.mp3",
 };
