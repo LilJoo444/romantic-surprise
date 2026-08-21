@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+/* Glassmorphism & Soft Lighting */
+.glass-card {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(233, 213, 255, 0.6);
+    box-shadow: 0 10px 30px -5px rgba(168, 85, 247, 0.12), 0 0 15px rgba(216, 180, 254, 0.1);
+}
+
+.glass-pill {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(216, 180, 254, 0.5);
+}
+
+/* Custom Scrollbar for Letter */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAF5FF;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D8B4FE;
+    border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #C084FC;
+}
